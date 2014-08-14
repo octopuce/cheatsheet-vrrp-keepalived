@@ -90,20 +90,97 @@
             <trail PARENT="h1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="140" YPOS="318.774845360825" WIDTH="240" HEIGHT="235.854020618557" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 240 0 240 0 240 0 240 0 240 235.854 240 235.854 240 235.854 240 235.854 0 235.854 0 235.854 0 235.854 0 235.854 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 240 0 240 0 240 0 240 0 240 235.854 240 235.854 240 235.854 240 235.854 0 235.854 0 235.854 0 235.854 0 235.854 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT CH="Keepalived"/>
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="140" YPOS="318.774845360825" WIDTH="240" HEIGHT="236.553739114061" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 240 0 240 0 240 0 240 0 240 236.554 240 236.554 240 236.554 240 236.554 0 236.554 0 236.554 0 236.554 0 236.554 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 240 0 240 0 240 0 240 0 240 236.554 240 236.554 240 236.554 240 236.554 0 236.554 0 236.554 0 236.554 0 236.554 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+            <ITEXT CH="VRRP Packets v3 (IPv4 &amp; IPv6 )"/>
+            <para PARENT="h2"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="     0                   1                   2                   3"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="     0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    |                    IPv4 Fields or IPv6 Fields                 |"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="   ...                                                             ..."/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    |                                                               |"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    |Version| Type  | Virtual Rtr ID|   Priority    |Count IPvX Addr|"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    |(rsvd) |     Max Adver Int     |          Checksum             |"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    |                                                               |"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    +                                                               +"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    |                       IPvX Address(es)                        |"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    +                                                               +"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    +                                                               +"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    +                                                               +"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    +                                                               +"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    |                                                               |"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    +                                                               +"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    |                                                               |"/>
+            <para PARENT="p.code"/>
+            <ITEXT FONTSIZE="5" CH="    +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+"/>
+            <para PARENT="p.code"/>
+            <para PARENT="p.code"/>
+            <ITEXT CPARENT="p.code" FONTSIZE="6" CH="Version"/>
+            <tab CPARENT="p.code" FONTSIZE="6"/>
+            <tab CPARENT="p.code" FONTSIZE="6"/>
+            <tab CPARENT="p.code" FONTSIZE="6"/>
+            <ITEXT CPARENT="p.code" FONTSIZE="6" CH="3 "/>
             <para PARENT="notes (tight)"/>
-            <para/>
-            <para/>
-            <ITEXT CH=" Linux Virtual Server (IPVS) "/>
-            <para/>
-            <para/>
-            <ITEXT CH="A load balancing solution built into the Linux Kernel and acting at Level 4."/>
-            <trail/>
+            <ITEXT CPARENT="p.code" FONTSIZE="6" CH="Type"/>
+            <tab CPARENT="p.code" FONTSIZE="6"/>
+            <tab CPARENT="p.code" FONTSIZE="6"/>
+            <tab CPARENT="p.code" FONTSIZE="6"/>
+            <ITEXT CPARENT="p.code" FONTSIZE="6" CH="1 / ADVERTISEMENT"/>
+            <para PARENT="notes (tight)"/>
+            <ITEXT CPARENT="p.code" FONTSIZE="6" CH="Virtual Rtr ID "/>
+            <tab CPARENT="p.code" FONTSIZE="6"/>
+            <tab CPARENT="p.code" FONTSIZE="6"/>
+            <ITEXT CPARENT="p.code" FONTSIZE="6" CH="Virtual router for this packet "/>
+            <para PARENT="notes (tight)"/>
+            <ITEXT CPARENT="p.code" FONTSIZE="6" CH="Priority"/>
+            <tab CPARENT="p.code" FONTSIZE="6"/>
+            <tab CPARENT="p.code" FONTSIZE="6"/>
+            <tab CPARENT="p.code" FONTSIZE="6"/>
+            <ITEXT CPARENT="p.code" FONTSIZE="6" CH="Router's priority "/>
+            <para PARENT="notes (tight)"/>
+            <ITEXT CPARENT="p.code" FONTSIZE="6" CH="Count IPvX AddrS"/>
+            <tab CPARENT="p.code" FONTSIZE="6"/>
+            <tab CPARENT="p.code" FONTSIZE="6"/>
+            <ITEXT CPARENT="p.code" FONTSIZE="6" CH="Number of addresses in advertisement"/>
+            <para PARENT="notes (tight)"/>
+            <ITEXT CPARENT="p.code" FONTSIZE="6" CH="Max Advertisment Interval "/>
+            <tab CPARENT="p.code" FONTSIZE="6"/>
+            <ITEXT CPARENT="p.code" FONTSIZE="6" CH="Max. time between advertisements "/>
+            <para PARENT="p.code"/>
+            <ITEXT CPARENT="p.code" FONTSIZE="6" CH="IPvX Address(es)"/>
+            <tab CPARENT="p.code" FONTSIZE="6"/>
+            <tab CPARENT="p.code" FONTSIZE="6"/>
+            <ITEXT CPARENT="p.code" FONTSIZE="6" CH="1+ IP address "/>
+            <para PARENT="p.code"/>
+            <para PARENT="p.code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="140" YPOS="35.3814433" WIDTH="515.28" HEIGHT="24.6185567" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 515.28 0 515.28 0 515.28 0 515.28 0 515.28 24.6186 515.28 24.6186 515.28 24.6186 515.28 24.6186 0 24.6186 0 24.6186 0 24.6186 0 24.6186 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 515.28 0 515.28 0 515.28 0 515.28 0 515.28 24.6186 515.28 24.6186 515.28 24.6186 515.28 24.6186 0 24.6186 0 24.6186 0 24.6186 0 24.6186 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT CH="VRRP &amp; Linux"/>
+            <ITEXT CH="VRRP &amp; Keepalived"/>
             <nbspace/>
             <nbspace/>
             <nbspace/>
@@ -112,89 +189,307 @@
             <nbspace/>
             <nbspace/>
             <nbspace/>
-            <ITEXT FONT="Georgia Italic" CH="Server Fail over "/>
+            <ITEXT FONT="Georgia Italic" CH="IP Fail over      Debian Flavor"/>
             <trail PARENT="h1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="140" YPOS="60" WIDTH="240.28" HEIGHT="252.452830188679" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 240.28 0 240.28 0 240.28 0 240.28 0 240.28 252.453 240.28 252.453 240.28 252.453 240.28 252.453 0 252.453 0 252.453 0 252.453 0 252.453 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 240.28 0 240.28 0 240.28 0 240.28 0 240.28 252.453 240.28 252.453 240.28 252.453 240.28 252.453 0 252.453 0 252.453 0 252.453 0 252.453 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="What is VRRP"/>
             <para PARENT="h2"/>
-            <ITEXT CH="The Virtual Router Redundancy Protocol is a free IETF creation, similar to Cisco HSRP &amp; GLBP."/>
+            <ITEXT CH="The Virtual Router Redundancy Protocol allows redundant (failover) network topologies. Conceived with routers in mind, VRRP handles machines taking responsibility of IP addresses according to a ruleset."/>
+            <para/>
+            <ITEXT CH="PHYSICAL"/>
+            <ITEXT CPARENT="notes" CH=" Machine member of a Virtual Router "/>
+            <para/>
+            <ITEXT CH="VIRTUAL"/>
+            <tab CPARENT="notes"/>
+            <ITEXT CPARENT="notes" CH="Shared IP pool and responsibility ruleset"/>
+            <para/>
+            <ITEXT CH="MASTER "/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="PHYSICAL responsible now for VIRTUAL  "/>
+            <para/>
+            <ITEXT CH="BACKUP"/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="PHYSICAL ready to be responsible for VIRTUAL "/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="It allow to build a redundant (failover) network topology: multiple machines grouped on a same LAN and sharing same IP addresses."/>
-            <para/>
-            <ITEXT CH="VRRP was conceived for routers redundancy originally. "/>
-            <para/>
-            <ITEXT CH="Physical Router"/>
-            <tab/>
-            <ITEXT CH="Routers acting under a VRRP group "/>
-            <para/>
-            <ITEXT CH="Virtual Router "/>
-            <tab/>
-            <ITEXT CH="Shared IP address and rules of responsibility"/>
-            <para/>
-            <ITEXT CH="Master Router"/>
-            <tab/>
-            <ITEXT CH="The router with the virtual IP at any time "/>
-            <para/>
-            <ITEXT CH="Backup Router"/>
-            <tab/>
-            <ITEXT CH="A Physical Router waiting in case of failure"/>
-            <para PARENT="notes"/>
-            <ITEXT CH="How it works"/>
+            <ITEXT CH="VRRP uses multicast"/>
             <para PARENT="h2"/>
-            <ITEXT CH="VRRP uses multicast (224.0.0.18) for its hello mechanism and elections."/>
-            <para PARENT="notes"/>
-            <ITEXT CH="Routers have a priority of between 1-255 and the router with the highest priority will become the master. When a planned withdrawal of a master router is to take place, its priority can be lowered which means a backup router will pre-empt the master router status rather than having to wait for the hold time to expire. This reduces the black hole period."/>
-            <para PARENT="notes"/>
-            <ITEXT CH="The default priority is 100 for backups and 255 for a master."/>
-            <para PARENT="notes"/>
-            <para PARENT="notes"/>
-            <ITEXT CH="Physical routers within the virtual router must communicate within themselves using packets with multicast IP address 224.0.0.18 and IP protocol number 112.[4]"/>
+            <ITEXT CH="VRRP uses Multicast addressing at level 2 (MAC) and level 4 (IP) levels."/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="It implies that PHYSICAL are connected to the same LAN."/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="Only MASTER emit messages, BACKUPS are silent by default.  "/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="VRRP Priorities"/>
+            <para PARENT="h2"/>
+            <ITEXT CH="Routers have a priority of between 1-255 and the router with the highest priority will become the master. A difference of at least 50 should be established for a PHYSICAL expected to be MASTER by default."/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="0"/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="Special: When MASTER stops participating"/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="100 "/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="Default priority for backups "/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="255 "/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="Default priority for a master"/>
             <para/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="392" YPOS="60" WIDTH="509.89" HEIGHT="496.701030927835" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="12" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 509.89 0 509.89 0 509.89 0 509.89 0 509.89 496.701 509.89 496.701 509.89 496.701 509.89 496.701 0 496.701 0 496.701 0 496.701 0 496.701 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 509.89 0 509.89 0 509.89 0 509.89 0 509.89 496.701 509.89 496.701 509.89 496.701 509.89 496.701 0 496.701 0 496.701 0 496.701 0 496.701 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT CH="interface FastEthernet0/0"/>
+            <ITEXT CH="Keepalived &amp; VRRP configuration"/>
+            <para PARENT="h1"/>
+            <ITEXT CH="Use keepalived VRRP as a failover solution for routers and servers."/>
             <para/>
-            <ITEXT CH="ip address 10.0.1.2 255.255.255.0"/>
+            <ITEXT CH="keepalived.conf"/>
+            <para PARENT="h2"/>
+            <ITEXT CH="global_defs {"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="  notification_email {"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="    alerts@example.com"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="  }"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="  notification_email_from cron@octopuce.fr"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="    smtp_server 192.0.2.1"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="    smtp_connect_timeout 30"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="}"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="vrrp_sync_group VG_1 {"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="  group {"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="    VI_INT_1 "/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="    VI_EXT_1 "/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="  }"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="  smtp_alert"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="}"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="vrrp_instance VI_INT_1 {"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="  state MASTER"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="  interface eth0"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="  virtual_router_id 1"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="  priority 150"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="  advert_int 5"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="  virtual_ipaddress {"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="        192.0.2.23/24 dev eth0 "/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="  }"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="}"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="Main Blocks"/>
+            <para PARENT="h3"/>
+            <ITEXT CH="global_defs {}"/>
+            <tab/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="General parameters"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="static_ipaddress"/>
+            <tab/>
+            <ITEXT CH="{}"/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="General static ip addresses"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="static_routes {}"/>
+            <tab/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="General static ip routes"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="vrrp_sync_group &lt;s&gt; {}"/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="Single group of instances"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="vrrp_instance &lt;s&gt; {}"/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="Single instance"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="Directives (general)"/>
+            <para PARENT="h3"/>
+            <ITEXT CH="router_id &lt;s&gt;"/>
+            <tab/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="Unique ID of the instance "/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="smtp_server &lt;n&gt;"/>
+            <tab/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="IP Address"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="smtp_connect_timeout &lt;n&gt;"/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="Connection timeout time"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="Directives (group and/or instance)"/>
+            <para PARENT="h3"/>
+            <ITEXT CH="group {} "/>
+            <tab/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="List of names of VRRP instances"/>
+            <ITEXT CH=" "/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="notify &lt;p&gt;"/>
+            <tab/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="ANY state transition script (sh)"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="notify_master &lt;p&gt;"/>
+            <tab/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="to MASTER transition"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="notify_backup &lt;p&gt;"/>
+            <tab/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="to MASTER transition"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="notify_fault &lt;p&gt;"/>
+            <tab/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="FAULT transition"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="smtp_alert"/>
+            <tab/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="Send email on transitions"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="Directives (instance)"/>
+            <para PARENT="h3"/>
+            <ITEXT CH="state &lt;s&gt;"/>
+            <tab/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="A declarative only startup state"/>
+            <ITEXT CH=" "/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="priority"/>
+            <tab/>
+            <ITEXT CH="&lt;n&gt;"/>
+            <tab/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="The highest priority wins"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="virtual_ipaddress {}"/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="Uses `ip addr add/del` syntax "/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="virtual_router_id"/>
+            <tab/>
+            <ITEXT CH=" &lt;s&gt;"/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="Arbitary unique number 0..255"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="virtual_routes &lt;s&gt;"/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="Uses `ip route add/del` syntax "/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="advert_int &lt;n&gt;"/>
+            <tab/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="Interval between adverts "/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="preempt_delay &lt;n&gt;"/>
+            <tab/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="Time before preempting "/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="nopreempt"/>
+            <tab/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="See &quot;Failover troubles&quot;"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="garp_master_delay"/>
+            <tab/>
+            <ITEXT CH=" &lt;n&gt;"/>
+            <tab/>
+            <ITEXT CPARENT="notes" CH="2nd gratuitous ARP timeout"/>
+            <para PARENT="p.code"/>
+            <para PARENT="h2"/>
+            <ITEXT CH="Keepalive &amp; VRRP events "/>
+            <para PARENT="h1"/>
+            <ITEXT CH="On FAILED, ie. when MASTER stops multicast packets or has priority 0"/>
+            <para PARENT="h3"/>
+            <ITEXT CH="1. Virtual router transitions into an unsteady state "/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="2. Election process starts: BACKUPs start sending multicast packets"/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="3.a One BACKUP has highest priority, it becomes MASTER  "/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="3.b Two(+) BACKUP have same priority, highest IP becomes MASTER"/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="4. New MASTER sends Gratuitous ARP to announce its responsibility"/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="On connection of a NEW PHYSICAL router to the LAN"/>
+            <para PARENT="h3"/>
+            <ITEXT CH="1. If NEW has state MASTER, it takes responsibility"/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="2. If NEW has a higher priority than MASTER, it takes responsibility"/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="3. If NEW has equal priority than MASTER, highest IP takes responsibility"/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="4. If NEW has lower priority than MASTER, becomes a BACKUP"/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="Blocking MASTER Preemption"/>
+            <para PARENT="h2"/>
+            <ITEXT CH="If you don't want a master to take over when it returns to service (ex:SQL). "/>
             <para/>
-            <ITEXT CH="vrrp 1 ip 10.0.1.1"/>
+            <ITEXT CH="Same level of responsibility"/>
+            <para PARENT="h3"/>
+            <ITEXT CH="Make both machines &quot;BACKUP&quot; and give the same priority level."/>
             <para/>
-            <ITEXT CH="vrrp 1 timers {advertise &lt;hello&gt; | learn}"/>
+            <ITEXT CH="Using the nopreempt flag"/>
+            <para PARENT="h3"/>
+            <ITEXT CH="The flag is set in the configuration of the PHYSICAL expected to be the default MASTER. It will allow a less prioritary BACKUP to stay MASTER."/>
             <para/>
-            <ITEXT CH="vrrp 1 priority &lt;priority&gt;"/>
-            <para/>
-            <ITEXT CH="vrrp 1 preempt"/>
-            <para/>
-            <ITEXT CH="vrrp 1 authentication md5 key-string &lt;password&gt;"/>
-            <para/>
-            <ITEXT CH="vrrp 1 track &lt;object&gt; decrement &lt;value&gt;"/>
-            <para/>
-            <para/>
-            <para/>
+            <ITEXT CH="PHYSICAL with state MASTER in config will override "/>
+            <ITEXT CPARENT="p.code" CH="nopreempt"/>
+            <ITEXT CH="."/>
+            <para PARENT="notes"/>
+            <ITEXT CH="Keepalive in debian"/>
+            <para PARENT="h1"/>
+            <ITEXT CH="Package"/>
+            <para PARENT="h2"/>
+            <ITEXT CPARENT="p.code" CH="keepalived"/>
+            <ITEXT CH=" "/>
+            <tab/>
+            <ITEXT CH="Failover and monitoring daemon for LVS clusters"/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="Logs"/>
+            <para PARENT="h2"/>
+            <ITEXT CH="/var/log"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="Configuration"/>
+            <para PARENT="h2"/>
+            <ITEXT CH="/etc/keepalived/keepalived.conf"/>
+            <para PARENT="p.code"/>
+            <ITEXT CH="/usr/share/doc/keepalived/samples/keepalived.conf.vrrp.*"/>
+            <para PARENT="p.code"/>
             <ITEXT CH="Sources"/>
-            <para/>
-            <ITEXT CH="VRRP RFC 3768"/>
-            <para/>
-            <ITEXT CH="http://www.rfc-editor.org/rfc/rfc3768.txt"/>
-            <para/>
-            <ITEXT CH="VRRP / HSRP / GLBP Cheatsheet"/>
+            <para PARENT="h1"/>
+            <ITEXT CH="http://tools.ietf.org/html/rfc5798"/>
             <para/>
             <ITEXT CH="http://packetlife.net/blog/2008/sep/15/hsrp-vrrp-glbp-cheat-sheet/"/>
             <para/>
-            <ITEXT CH="Wikipedia : VRRP"/>
-            <para/>
             <ITEXT CH="https://en.wikipedia.org/wiki/Vrrp"/>
             <para/>
-            <ITEXT CH="Keepalived Documentation"/>
             <para/>
-            <ITEXT CH="http://www.keepalived.org/documentation.html"/>
-            <para/>
-            <ITEXT CH="Linux IPVS"/>
-            <para/>
-            <ITEXT CH="http://www.linux-vs.org/"/>
-            <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="213.34020619" YPOS="1456.42857142857" WIDTH="471.93979381" HEIGHT="8.74142857142877" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 471.94 0 471.94 0 471.94 0 471.94 0 471.94 8.74143 471.94 8.74143 471.94 8.74143 471.94 8.74143 0 8.74143 0 8.74143 0 8.74143 0 8.74143 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 471.94 0 471.94 0 471.94 0 471.94 0 471.94 8.74143 471.94 8.74143 471.94 8.74143 471.94 8.74143 0 8.74143 0 8.74143 0 8.74143 0 8.74143 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
@@ -207,7 +502,7 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="205.34020619" YPOS="566.538571429" WIDTH="471.9397938" HEIGHT="8.741428571" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 471.94 0 471.94 0 471.94 0 471.94 0 471.94 8.74143 471.94 8.74143 471.94 8.74143 471.94 8.74143 0 8.74143 0 8.74143 0 8.74143 0 8.74143 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 471.94 0 471.94 0 471.94 0 471.94 0 471.94 8.74143 471.94 8.74143 471.94 8.74143 471.94 8.74143 0 8.74143 0 8.74143 0 8.74143 0 8.74143 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT CH="Original document available on http://github.com/octopuce/cheatsheet-varnish-caching    CC by SA 4.0 "/>
+            <ITEXT CH="Original document available on http://github.com/octopuce/vrrp-server-failover    CC by SA 4.0 "/>
             <para PARENT="notes"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -222,65 +517,6 @@
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="140" YPOS="1448.421746" WIDTH="64" HEIGHT="37.91485774" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.256" LOCALSCY="0.256" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../projets/octo/logo-blue.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 64 0 64 0 64 0 64 0 64 37.9149 64 37.9149 64 37.9149 64 37.9149 0 37.9149 0 37.9149 0 37.9149 0 37.9149 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 64 0 64 0 64 0 64 0 64 37.9149 64 37.9149 64 37.9149 64 37.9149 0 37.9149 0 37.9149 0 37.9149 0 37.9149 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
-            <PageItemAttributes/>
-        </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="-1" PTYPE="4" XPOS="1036.03773584906" YPOS="55" WIDTH="440.150943396226" HEIGHT="527.094339622641" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 440.151 0 440.151 0 440.151 0 440.151 0 440.151 527.094 440.151 527.094 440.151 527.094 440.151 527.094 0 527.094 0 527.094 0 527.094 0 527.094 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 440.151 0 440.151 0 440.151 0 440.151 0 440.151 527.094 440.151 527.094 440.151 527.094 440.151 527.094 0 527.094 0 527.094 0 527.094 0 527.094 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <para PARENT="Default Paragraph Style"/>
-            <para PARENT="h4"/>
-            <ITEXT CH="Sources"/>
-            <para PARENT="h1"/>
-            <ITEXT CH="http://www.arlocarreon.com/blog/varnish/what-is-varnish-cache-in-laymans-terms/"/>
-            <para/>
-            <ITEXT CH="https://www.varnish-cache.org/docs"/>
-            <para/>
-            <ITEXT CH="https://www.varnish-software.com/static/book/VCL_Basics.html"/>
-            <para/>
-            <ITEXT CH="http://dimitris.apeiro.gr/2014/07/10/varnish-cache-how-to-intro-to-high-availability-for-drupal-lovers-and-wordpress-addicts/"/>
-            <para/>
-            <ITEXT CH="https://en.wikipedia.org/wiki/List_of_HTTP_header_fields"/>
-            <para/>
-            <ITEXT CH="https://www.varnish-software.com/static/book/HTTP.html"/>
-            <para/>
-            <ITEXT CH="13.4 Response Cacheability"/>
-            <para/>
-            <ITEXT CH="http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html#sec13.4"/>
-            <para/>
-            <ITEXT CH="14 Header Field Definitions"/>
-            <para/>
-            <ITEXT CH="http://www.w3.org/Protocols/rfc2616/rfc2616-sec14.html"/>
-            <para/>
-            <ITEXT CH="HTTP 1.1 Part6 Caching"/>
-            <para/>
-            <ITEXT CH="http://greenbytes.de/tech/webdav/draft-ietf-httpbis-p6-cache-17.html"/>
-            <para/>
-            <ITEXT CH="S-maxage"/>
-            <para/>
-            <ITEXT CH="http://brian.moonspot.net/2008/07/03/caching-and-ttl-behavior/"/>
-            <para/>
-            <ITEXT CH="Cache-Control"/>
-            <para/>
-            <ITEXT CH="http://fr.wikipedia.org/wiki/Cache-Control#no-cache"/>
-            <para/>
-            <para/>
-            <ITEXT CH="__utma"/>
-            <para/>
-            <ITEXT CH="https://www.varnish-cache.org/trac/wiki/VCLExampleRemovingSomeCookies"/>
-            <para/>
-            <para/>
-            <ITEXT CH="Banning"/>
-            <para/>
-            <ITEXT CH="https://www.varnish-cache.org/docs/3.0/tutorial/purging.html"/>
-            <para/>
-            <ITEXT CH="Apache"/>
-            <para/>
-            <ITEXT CH="https://httpd.apache.org/docs/2.2/mod/mod_expires.html"/>
-            <para/>
-            <ITEXT CH="Nginx"/>
-            <para/>
-            <ITEXT CH="http://nginx.org/en/docs/http/ngx_http_headers_module.html"/>
-            <para/>
-            <para/>
-            <para/>
             <PageItemAttributes/>
         </PAGEOBJECT>
     </DOCUMENT>
